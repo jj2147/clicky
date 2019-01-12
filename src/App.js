@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './Components/Header/Header';
-import Card from './Components/Card/Card';
+import Header from './Components/Header';
+import Card from './Components/Card';
 
 function importAll(r) {
     return r.keys().map(r);
@@ -13,7 +13,7 @@ console.log(images);
 class App extends Component {
 
     state = {
-        characters: images.map(i => {return {img:i} }),
+        characters: images.map(i => ({img:i})),
         score: 0,
         clicked: []
     }
@@ -23,33 +23,44 @@ class App extends Component {
         this.setState({characters: this.shuffle(this.state.characters)});
 
         if(!this.state.clicked.includes(img)){
+            
             this.setState({
                 clicked: [...this.state.clicked, img],
                 score: this.state.score + 1
-            })
-        }else {
+            }, () => {
+                    console.log(this.state.score);
+                    console.log(this.state.characters.length);
+    
+                    if(this.state.score === this.state.characters.length){
+                        alert("You win!");
+                        this.setState({score: 0, clicked: []});
+                    }    
+                }
+            );        
+
+        }else{
+            alert("You lose!");
             this.setState({score: 0, clicked: []});
-            alert('You lose!')
         }
+        
     }
 
 
-    shuffle = (charArray) => {
+    shuffle = (array) => {
 
-        var charCopy = charArray;
-        var last = charCopy.length;
+        var copy = array;
+        var last = copy.length;
         var temp;
         var randomIndex;
     
-        while (last) {
-    
+        while (last) {    
             randomIndex = Math.floor(Math.random() * last--);
         
-            temp = charCopy[last];
-            charCopy[last] = charCopy[randomIndex];
-            charCopy[randomIndex] = temp;
+            temp = copy[last];
+            copy[last] = copy[randomIndex];
+            copy[randomIndex] = temp;
         }
-        return charCopy;
+        return copy;
     }
 
 
