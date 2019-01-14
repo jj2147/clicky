@@ -1,7 +1,7 @@
 {
-  "main.css": "/clicky/static/css/main.87a3dc5a.chunk.css",
-  "main.js": "/clicky/static/js/main.9cca57a3.chunk.js",
-  "main.js.map": "/clicky/static/js/main.9cca57a3.chunk.js.map",
+  "main.css": "/clicky/static/css/main.d61fcda5.chunk.css",
+  "main.js": "/clicky/static/js/main.cdf7bb5c.chunk.js",
+  "main.js.map": "/clicky/static/js/main.cdf7bb5c.chunk.js.map",
   "static/js/1.5cabbdc2.chunk.js": "/clicky/static/js/1.5cabbdc2.chunk.js",
   "static/js/1.5cabbdc2.chunk.js.map": "/clicky/static/js/1.5cabbdc2.chunk.js.map",
   "runtime~main.js": "/clicky/static/js/runtime~main.9e53dddb.js",
@@ -22,8 +22,8 @@
   "static/media/andre.jpg": "/clicky/static/media/andre.11a9f02d.jpg",
   "static/media/snoop.jpg": "/clicky/static/media/snoop.85fcbb77.jpg",
   "static/media/weezy.jpg": "/clicky/static/media/weezy.f372cbc7.jpg",
-  "static/css/main.87a3dc5a.chunk.css.map": "/clicky/static/css/main.87a3dc5a.chunk.css.map",
+  "static/css/main.d61fcda5.chunk.css.map": "/clicky/static/css/main.d61fcda5.chunk.css.map",
   "index.html": "/clicky/index.html",
-  "precache-manifest.eb1ff4013c11dbe16276185e19d07fcf.js": "/clicky/precache-manifest.eb1ff4013c11dbe16276185e19d07fcf.js",
+  "precache-manifest.860fa103aede30e943d43d11921850df.js": "/clicky/precache-manifest.860fa103aede30e943d43d11921850df.js",
   "service-worker.js": "/clicky/service-worker.js"
 }
