@@ -4,8 +4,8 @@ import './index.css';
 function Header(props){
     return(
         <div className="header">
-            <div>{props.title}</div>
-            <div>Score: {props.score}</div>
+            <h1>{props.title}</h1>
+            <h1>Score: {props.score}</h1>
         </div>
     )
 }
