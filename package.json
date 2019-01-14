@@ -2,7 +2,7 @@
   "name": "clicky",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jj2147.github.io/clicky/",
+  "homepage": "https://jj2147.github.io/clicky",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
