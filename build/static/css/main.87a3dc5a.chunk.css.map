@@ -1,0 +1,1 @@
+{"version":3,"sources":["C:/Users/sn00p/Documents/clicky/src/Components/Card/C:/Users/sn00p/Documents/clicky/src/Components/Card/index.css"],"names":[],"mappings":"AAEA,OACI,aAAc,AACd,YAAa,AACb,gBAAkB,CACrB","file":"main.87a3dc5a.chunk.css","sourcesContent":["\n\n.image {\n    height: 150px;\n    width: 150px;\n    object-fit: cover;\n}\n"]}
